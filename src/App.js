@@ -13,7 +13,6 @@ function App() {
     <div className="App">
       <h1>Paragraph Word Counter</h1>
       <textarea
-        rows="8"
         placeholder="Enter Paragraph"
         value={text}
         onChange={textchanger}
